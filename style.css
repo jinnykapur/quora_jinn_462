@@ -1,0 +1,96 @@
+/* Navbar styles */
+.navbar {
+  border-radius: 0;
+}
+
+/* Main content styles */
+.question {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.question h2 {
+  margin-top: 0;
+}
+
+.question p {
+  margin-bottom: 10px;
+}
+
+.question-info {
+  color: #666;
+}
+
+.question-info span {
+  margin-right: 10px;
+}
+
+/* Voting buttons */
+.vote-up,
+.vote-down {
+  margin-right: 5px;
+}
+
+/* Comments section */
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.comment:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.comment .user {
+  font-weight: bold;
+  color: #333;
+}
+
+.comment .time {
+  color: #666;
+  margin-left: 10px;
+}
+
+.comment p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: #ffffff;
+}
