@@ -1,8 +1,16 @@
 /* Navbar styles */
 .navbar {
   border-radius: 0;
+  justify-content:center;
+  background-color: #dcdcdc;
 }
-
+#navitem{
+  justify-content: center;
+}
+#navbar-search {
+  justify-content:right;
+  text-indent: 1000px;
+}
 /* Main content styles */
 .question {
   border: 1px solid #ccc;
